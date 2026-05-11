@@ -5,10 +5,10 @@
 			<value>Green</value>
 		</property>
 		<property name="name">
-			<value>Player_Gun_Attack</value>
+			<value>PlayerAttackRanged</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a718ed10-b14d-46b7-a14e-4872fcccc72e}</destination>
@@ -62,18 +62,11 @@
 	<object class="EventAutomatableProperties" id="{0ed0777b-e0e0-405b-a678-0ab1d2cc5d0b}" />
 	<object class="MarkerTrack" id="{e515e38a-1f0e-4339-a641-6fcf5aace3d5}" />
 	<object class="GroupTrack" id="{54a21ff8-95d7-4ff8-b747-51e39057e4d3}">
-		<relationship name="modules">
-			<destination>{b919cecc-f7c8-44c3-8e47-494527d6fca9}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{a95de047-312c-4b87-bbc0-76d852d3447e}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{b87afc25-8ecf-443f-8aa1-31e85c9ac053}">
-		<relationship name="modules">
-			<destination>{b919cecc-f7c8-44c3-8e47-494527d6fca9}</destination>
-		</relationship>
-	</object>
+	<object class="Timeline" id="{b87afc25-8ecf-443f-8aa1-31e85c9ac053}" />
 	<object class="EventMixerMaster" id="{99837890-f027-4fe0-929b-317d9a61e9c1}">
 		<relationship name="effectChain">
 			<destination>{82805312-2628-4840-bd59-d2c2833f8533}</destination>
@@ -91,20 +84,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bf77b756-1adf-4641-95ba-5f0a6023b1a8}" />
-	<object class="SingleSound" id="{b919cecc-f7c8-44c3-8e47-494527d6fca9}">
-		<property name="length">
-			<value>6.0530612244897961</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>1</value>
-		</property>
-		<property name="pitch">
-			<value>2.79999995</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{7bf5ec36-0b34-4a25-b20d-ee28a1bbbd77}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{a95de047-312c-4b87-bbc0-76d852d3447e}">
 		<property name="name">
 			<value>Audio 1</value>
