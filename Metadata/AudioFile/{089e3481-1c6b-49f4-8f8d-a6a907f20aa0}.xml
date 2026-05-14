@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{089e3481-1c6b-49f4-8f8d-a6a907f20aa0}">
 		<property name="assetPath">
-			<value>SFX/DeathSounds_004.wav</value>
+			<value>SFX/Karaktärsljud/DeathSounds_004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

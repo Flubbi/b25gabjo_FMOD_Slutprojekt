@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{a9fe2ace-716f-43a0-95d1-4977281d1397}">
 		<property name="assetPath">
-			<value>SFX/Fotsteg Mark_001.wav</value>
+			<value>SFX/Fotsteg/Fotsteg Mark_001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

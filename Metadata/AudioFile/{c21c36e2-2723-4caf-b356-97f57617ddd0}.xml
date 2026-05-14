@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c21c36e2-2723-4caf-b356-97f57617ddd0}">
 		<property name="assetPath">
-			<value>SFX/Fotsteg Gräs_003.wav</value>
+			<value>SFX/Fotsteg/Fotsteg Gräs_003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

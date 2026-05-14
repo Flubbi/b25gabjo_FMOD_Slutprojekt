@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{b5db674c-4286-407f-ad85-f5f645abc808}">
 		<property name="assetPath">
-			<value>SFX/JumpSounds_003.wav</value>
+			<value>SFX/Karaktärsljud/JumpSounds_003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
