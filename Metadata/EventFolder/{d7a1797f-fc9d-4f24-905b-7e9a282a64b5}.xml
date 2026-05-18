@@ -5,7 +5,7 @@
 			<value>Red Light 2</value>
 		</property>
 		<property name="name">
-			<value>Environment</value>
+			<value>Interactables</value>
 		</property>
 		<relationship name="folder">
 			<destination>{38ad5d56-0389-49d7-86e4-af8b868b0af8}</destination>
