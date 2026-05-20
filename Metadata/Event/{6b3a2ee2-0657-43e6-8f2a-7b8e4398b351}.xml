@@ -5,7 +5,7 @@
 			<value>Green</value>
 		</property>
 		<property name="name">
-			<value>PlayerJump</value>
+			<value>Player_Jump</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

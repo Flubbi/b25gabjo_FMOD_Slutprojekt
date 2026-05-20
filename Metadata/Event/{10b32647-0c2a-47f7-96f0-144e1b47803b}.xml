@@ -5,7 +5,7 @@
 			<value>Green</value>
 		</property>
 		<property name="name">
-			<value>PlayerFootsteps</value>
+			<value>Player_Footsteps</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -104,7 +104,7 @@
 	<object class="MixerBusPanner" id="{85fca7e6-58c6-4a55-9977-df8654803135}" />
 	<object class="MultiSound" id="{92324087-3021-4dea-86f3-1e0a9c25586b}">
 		<property name="startOffset">
-			<value>10.5</value>
+			<value>6.5</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{8dbb8394-09ea-4b44-8664-09ae2f6e43cb}</destination>
@@ -145,7 +145,7 @@
 			<value>9.5</value>
 		</property>
 		<property name="volume">
-			<value>-11</value>
+			<value>-25.5</value>
 		</property>
 		<property name="pitch">
 			<value>-2.79999995</value>

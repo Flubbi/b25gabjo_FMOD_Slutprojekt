@@ -5,7 +5,7 @@
 			<value>Green</value>
 		</property>
 		<property name="name">
-			<value>PlayerAttackMelee</value>
+			<value>Player_Atk_Melee</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -148,7 +148,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{df5ae993-d5e6-4535-b5c4-49dc9d1c8cae}">
 		<property name="volume">
-			<value>-14</value>
+			<value>-20.5</value>
 		</property>
 		<property name="name">
 			<value>Grunt</value>
@@ -183,7 +183,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{31cc2f26-635d-4134-9efa-708198b1ac81}">
 		<property name="volume">
-			<value>-16.5</value>
+			<value>-19.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -227,7 +227,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{03cdccd6-9a8e-4d0d-8979-2e408d04da87}">
 		<property name="volume">
-			<value>-17</value>
+			<value>-25.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{3b3075ef-7067-436e-8335-4991f7b40d35}">
+		<property name="color">
+			<value>Yellow Light 2</value>
+		</property>
 		<property name="assetPath">
 			<value>Ambiance/AMBSkog/</value>
 		</property>

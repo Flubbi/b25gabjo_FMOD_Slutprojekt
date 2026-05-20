@@ -5,7 +5,7 @@
 			<value>Red Light 2</value>
 		</property>
 		<property name="name">
-			<value>BreakableWall</value>
+			<value>Breakable_Wall</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

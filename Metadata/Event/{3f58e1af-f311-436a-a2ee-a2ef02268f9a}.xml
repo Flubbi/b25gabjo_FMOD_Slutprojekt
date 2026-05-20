@@ -5,7 +5,7 @@
 			<value>Magenta Light 2</value>
 		</property>
 		<property name="name">
-			<value>DoorLight</value>
+			<value>Door_Light</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
