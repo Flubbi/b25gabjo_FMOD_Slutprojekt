@@ -102,6 +102,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{205322cc-191c-4b42-b421-8689fa700d8b}" />
 	<object class="MultiSound" id="{6f4bb6f5-d99f-4470-a222-6958094cf1c0}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>59.5</value>
+		</property>
 		<property name="start">
 			<value>0.02</value>
 		</property>
@@ -128,6 +134,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{53fa9ddc-0a6f-4c1e-8aca-899c4cf75e2e}">
+		<property name="volume">
+			<value>-13.5</value>
+		</property>
 		<property name="name">
 			<value>JumpGrunt</value>
 		</property>
@@ -158,7 +167,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{a69d97ca-3c56-4149-b78f-31c0157c2f41}">
 		<property name="volume">
-			<value>-5.5</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -334,7 +343,7 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.0658798888</value>
+			<value>0.186766163</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{5caebc95-d38a-4562-8c62-ce15e02cf39b}">
@@ -353,7 +362,7 @@
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.25471893</value>
+			<value>0.00769636035</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{bda70941-eacf-4908-a07d-8d92830d28b0}">
