@@ -130,6 +130,9 @@
 		<property name="startOffset">
 			<value>1</value>
 		</property>
+		<property name="volume">
+			<value>-16.5</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{3e5f48bc-2697-4eb6-905b-f3d239477fa0}</destination>
 			<destination>{fd149d16-cb0b-4c01-b589-13ea55c70342}</destination>
