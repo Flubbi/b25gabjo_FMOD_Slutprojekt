@@ -116,11 +116,14 @@
 	</object>
 	<object class="EventMixerGroup" id="{f8be157d-ff76-4c88-bc73-43bb90ffae77}">
 		<property name="volume">
-			<value>-7.5</value>
+			<value>-7.4000001</value>
 		</property>
 		<property name="name">
 			<value>Break</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{19d16b5c-2436-426d-9a04-d08f5e0daec2}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{9d577100-7a83-40b8-aebd-2728c4a29533}</destination>
 		</relationship>
@@ -161,6 +164,14 @@
 		<relationship name="endPoint">
 			<destination>{e8ead1d8-e8fe-4062-8d9d-54b93cc500dc}</destination>
 		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{19d16b5c-2436-426d-9a04-d08f5e0daec2}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>6.39999962</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{9d577100-7a83-40b8-aebd-2728c4a29533}">
 		<relationship name="effects">
