@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{158ae457-18e2-4dcd-a5dd-f133c2acc7e6}">
+		<property name="note">
+			<value>Oneshot player sound for taking damage, with different variations.</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>

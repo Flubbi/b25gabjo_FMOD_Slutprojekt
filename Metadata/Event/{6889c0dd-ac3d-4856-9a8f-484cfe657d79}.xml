@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6889c0dd-ac3d-4856-9a8f-484cfe657d79}">
+		<property name="note">
+			<value>Oneshot player attack for ranged, with certain variations with multiinstrument to add randomness</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>

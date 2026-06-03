@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6b3a2ee2-0657-43e6-8f2a-7b8e4398b351}">
+		<property name="note">
+			<value>Oneshot for player jump, with variations to add randomness
+</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>

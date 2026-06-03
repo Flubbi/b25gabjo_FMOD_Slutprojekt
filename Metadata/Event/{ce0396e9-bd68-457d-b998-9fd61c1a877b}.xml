@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ce0396e9-bd68-457d-b998-9fd61c1a877b}">
+		<property name="note">
+			<value>Oneshot Player sound with landing onto a surface
+Using Surface parameter Grass = 0, Rock =1, Metal = 2</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>
