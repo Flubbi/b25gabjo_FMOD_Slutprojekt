@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{783043e5-d3ea-4a8c-8dcf-2516971b4152}">
+		<property name="name">
+			<value>Inside_Cave</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ec657238-a176-43ab-961c-38ffed743df5}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d17842c8-2da6-40de-aa51-82ceed3348b3}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ec657238-a176-43ab-961c-38ffed743df5}">
+		<relationship name="effects">
+			<destination>{5c14ce89-1760-4aa5-b1ca-8d67d584ff39}</destination>
+			<destination>{41717de6-597b-4261-ab8d-2dd536b8efbb}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d17842c8-2da6-40de-aa51-82ceed3348b3}" />
+	<object class="MixerBusFader" id="{5c14ce89-1760-4aa5-b1ca-8d67d584ff39}" />
+	<object class="SFXReverbEffect" id="{41717de6-597b-4261-ab8d-2dd536b8efbb}" />
+</objects>
