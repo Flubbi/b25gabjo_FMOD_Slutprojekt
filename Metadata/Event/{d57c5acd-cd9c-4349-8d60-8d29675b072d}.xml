@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d57c5acd-cd9c-4349-8d60-8d29675b072d}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>Boss_Steam</value>
 		</property>
@@ -56,7 +59,7 @@
 			<destination>{3e542e71-1380-44a9-a334-2ad5348759fa}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{5062d45f-216b-48ea-93ba-5837333fbb2c}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{898561af-e771-40df-9f95-f59c50818dfc}" />

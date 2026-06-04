@@ -8,7 +8,7 @@
 			<value>Menu_Button_Click</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{893632da-edf1-4e1c-acc4-f8f611eab8cb}</destination>
@@ -56,17 +56,24 @@
 			<destination>{3828be91-a69f-4c35-be87-76071a5bd18f}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{6fcaec63-f100-42a3-b95a-ee59e50caea1}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{56802547-80bf-4cf5-9302-73b6a0abb8c8}" />
 	<object class="MarkerTrack" id="{3d670f4a-7ca0-4653-84ea-ebda71c06ec3}" />
 	<object class="GroupTrack" id="{74e8491c-5e69-41e8-8521-8e1b3c6156e2}">
+		<relationship name="modules">
+			<destination>{8799bca4-9093-47aa-86f1-886c924893c4}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{f220b06b-b93d-4bd3-a2c3-85c5e06c4843}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{4e56c671-5ca7-4d32-ac6b-124e2ccf553d}" />
+	<object class="Timeline" id="{4e56c671-5ca7-4d32-ac6b-124e2ccf553d}">
+		<relationship name="modules">
+			<destination>{8799bca4-9093-47aa-86f1-886c924893c4}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{17526757-3f67-4acd-813d-d9d60225d1d8}">
 		<relationship name="effectChain">
 			<destination>{f4560190-010d-44b0-ae0f-a0d855fab068}</destination>
@@ -84,6 +91,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3828be91-a69f-4c35-be87-76071a5bd18f}" />
+	<object class="SingleSound" id="{8799bca4-9093-47aa-86f1-886c924893c4}">
+		<property name="length">
+			<value>0.5</value>
+		</property>
+		<property name="pitch">
+			<value>2.60000014</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{416c476c-9461-4167-91ec-de7af6c38f51}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{f220b06b-b93d-4bd3-a2c3-85c5e06c4843}">
 		<property name="name">
 			<value>Click</value>
