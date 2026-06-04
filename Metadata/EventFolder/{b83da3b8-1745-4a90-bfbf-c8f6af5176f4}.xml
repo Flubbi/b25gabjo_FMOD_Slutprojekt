@@ -5,7 +5,7 @@
 			<value>Red</value>
 		</property>
 		<property name="name">
-			<value>ChompSpit</value>
+			<value>Enemy_Small</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b0f4eafc-c432-4d85-9634-7326ff9aac81}</destination>

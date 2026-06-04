@@ -108,6 +108,12 @@
 		<property name="length">
 			<value>0.95406250000000004</value>
 		</property>
+		<property name="startOffset">
+			<value>10</value>
+		</property>
+		<property name="pitch">
+			<value>-3.60000014</value>
+		</property>
 		<relationship name="fadeInCurve">
 			<destination>{e4651a86-b1f3-4094-bdf6-1cc797eaecfc}</destination>
 		</relationship>
@@ -175,8 +181,8 @@
 	<object class="MixerBusEffectChain" id="{0fe30cf6-e008-4646-9425-94b5e540ef0b}">
 		<relationship name="effects">
 			<destination>{a5b49251-1e49-4905-b035-98e632fb5158}</destination>
-			<destination>{2c967698-825e-4f59-b5ba-6d16ffb9ea65}</destination>
 			<destination>{ed557a1b-6b56-4b1f-9a5f-79bf0b80bd65}</destination>
+			<destination>{c0e91e6e-1d7b-4229-bb0f-3708eb9d152f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{375a4b3b-60e6-4327-9196-7408812ccf72}" />
@@ -215,16 +221,12 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{a5b49251-1e49-4905-b035-98e632fb5158}" />
-	<object class="PitchShifterEffect" id="{2c967698-825e-4f59-b5ba-6d16ffb9ea65}">
-		<property name="overlap">
-			<value>9</value>
-		</property>
-	</object>
 	<object class="ThreeEQEffect" id="{ed557a1b-6b56-4b1f-9a5f-79bf0b80bd65}">
 		<property name="highGain">
 			<value>-9</value>
 		</property>
 	</object>
+	<object class="PitchShifterEffect" id="{c0e91e6e-1d7b-4229-bb0f-3708eb9d152f}" />
 	<object class="AutomationPoint" id="{6603198a-d3e4-4d75-8cb0-df0e57202e3d}">
 		<property name="position">
 			<value>0</value>
