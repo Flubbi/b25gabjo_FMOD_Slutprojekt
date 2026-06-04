@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{344d042c-2a21-45d9-adb9-c99bf364498c}">
+		<property name="note">
+			<value>Oneshot event for standing or pushing a box onto the pressure plates.</value>
+		</property>
 		<property name="color">
 			<value>Magenta Light 2</value>
 		</property>

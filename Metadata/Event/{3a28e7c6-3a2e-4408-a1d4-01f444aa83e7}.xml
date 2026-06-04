@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{3a28e7c6-3a2e-4408-a1d4-01f444aa83e7}">
+		<property name="note">
+			<value>Event loop for Foliage in Zone 1</value>
+		</property>
 		<property name="color">
 			<value>Cyan</value>
 		</property>

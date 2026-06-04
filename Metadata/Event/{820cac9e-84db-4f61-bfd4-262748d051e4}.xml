@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{820cac9e-84db-4f61-bfd4-262748d051e4}">
+		<property name="note">
+			<value>Inside Ambiance Loop, for the cave zones in the game</value>
+		</property>
 		<property name="color">
 			<value>Cyan</value>
 		</property>

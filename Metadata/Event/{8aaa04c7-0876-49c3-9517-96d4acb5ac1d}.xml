@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8aaa04c7-0876-49c3-9517-96d4acb5ac1d}">
+		<property name="note">
+			<value>Simple Loop event for Acid Pools
+</value>
+		</property>
 		<property name="color">
 			<value>Cyan</value>
 		</property>

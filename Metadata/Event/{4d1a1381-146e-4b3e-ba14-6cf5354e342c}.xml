@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{4d1a1381-146e-4b3e-ba14-6cf5354e342c}">
+		<property name="note">
+			<value>Oneshot sound for when the Boss grenade explodes</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

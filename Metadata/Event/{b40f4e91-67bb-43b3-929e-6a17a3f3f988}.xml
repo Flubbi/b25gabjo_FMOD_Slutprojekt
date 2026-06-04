@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b40f4e91-67bb-43b3-929e-6a17a3f3f988}">
+		<property name="note">
+			<value>Oneshot event for breaking the destructible wall in the different zones</value>
+		</property>
 		<property name="color">
 			<value>Red Light 2</value>
 		</property>

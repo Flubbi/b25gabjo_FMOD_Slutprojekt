@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5f11d2eb-545c-4827-9630-254a4d9943f4}">
+		<property name="note">
+			<value>Oneshot sound event for Boss walking, with variations with steps, but keeping metalthud for each.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

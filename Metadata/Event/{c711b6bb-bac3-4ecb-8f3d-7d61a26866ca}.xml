@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c711b6bb-bac3-4ecb-8f3d-7d61a26866ca}">
+		<property name="note">
+			<value>Oneshot jingle for picking up the different keys in the game to progress.</value>
+		</property>
 		<property name="color">
 			<value>Magenta Light 2</value>
 		</property>
@@ -211,7 +214,6 @@
 		<property name="timelockedOffset">
 			<value>0.15000000000000002</value>
 		</property>
-		<property name="name" />
 		<relationship name="fadeInCurve">
 			<destination>{18b04985-4ed5-4360-8674-c261c6ef5d8b}</destination>
 		</relationship>

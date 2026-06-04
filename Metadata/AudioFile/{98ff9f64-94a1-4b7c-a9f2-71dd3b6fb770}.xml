@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{98ff9f64-94a1-4b7c-a9f2-71dd3b6fb770}">
 		<property name="assetPath">
-			<value>SFX/Wind Chime.wav</value>
+			<value>SFX/Foley/Wind Chime.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

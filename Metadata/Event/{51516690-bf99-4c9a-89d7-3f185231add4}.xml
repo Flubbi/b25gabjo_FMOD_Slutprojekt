@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{51516690-bf99-4c9a-89d7-3f185231add4}">
+		<property name="note">
+			<value>Oneshot sound event for the boss cutscene when it enters the scene in zone 5.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -220,7 +223,6 @@
 		<property name="length">
 			<value>0.71847916666666667</value>
 		</property>
-		<property name="name" />
 		<relationship name="fadeInCurve">
 			<destination>{3eb8fcc8-cdfb-4fd5-826b-bf0a4685cc80}</destination>
 		</relationship>

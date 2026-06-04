@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{034b7f99-c883-49f3-9c59-e6bb5691f3b3}">
+		<property name="note">
+			<value>Oneshot sound for shield states.
+
+With parameters 0 = shield down
+1 = shield up</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

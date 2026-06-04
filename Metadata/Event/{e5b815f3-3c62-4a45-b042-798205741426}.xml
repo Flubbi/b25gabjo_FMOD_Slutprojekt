@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e5b815f3-3c62-4a45-b042-798205741426}">
+		<property name="note">
+			<value>Oneshot event for Spitter charging up and spitting it's projectile
+</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -11,7 +15,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{b0f4eafc-c432-4d85-9634-7326ff9aac81}</destination>
+			<destination>{b83da3b8-1745-4a90-bfbf-c8f6af5176f4}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{f239d0bd-9038-487c-af97-fbff7b445902}</destination>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{b1eb78c4-d02c-4f04-a398-56780bb211b3}">
 		<property name="assetPath">
-			<value>SFX/Dragkedja_002.wav</value>
+			<value>SFX/Foley/Dragkedja_002.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

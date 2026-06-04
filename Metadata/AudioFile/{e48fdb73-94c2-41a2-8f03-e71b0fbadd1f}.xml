@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{e48fdb73-94c2-41a2-8f03-e71b0fbadd1f}">
 		<property name="assetPath">
-			<value>SFX/Jingling keys_002.wav</value>
+			<value>SFX/Foley/Jingling keys_002.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

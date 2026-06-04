@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{67710937-6fb4-4e86-8abf-b154edd15337}">
 		<property name="assetPath">
-			<value>SFX/Leksak_009.wav</value>
+			<value>SFX/Foley/Leksak_009.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

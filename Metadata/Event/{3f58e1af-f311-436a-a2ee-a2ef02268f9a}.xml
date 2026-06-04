@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{3f58e1af-f311-436a-a2ee-a2ef02268f9a}">
+		<property name="note">
+			<value>Oneshot event for the different light crystals and doors lighting up.</value>
+		</property>
 		<property name="color">
 			<value>Magenta Light 2</value>
 		</property>

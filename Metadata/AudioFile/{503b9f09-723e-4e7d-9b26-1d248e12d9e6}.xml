@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{503b9f09-723e-4e7d-9b26-1d248e12d9e6}">
 		<property name="assetPath">
-			<value>SFX/Swoosh2.wav</value>
+			<value>SFX/Foley/Swoosh2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{30f2fa48-03b7-45fe-8c48-291b7ede9981}">
+		<property name="note">
+			<value>Oneshot event for the different doors sliding open</value>
+		</property>
 		<property name="color">
 			<value>Red Light 2</value>
 		</property>
@@ -103,6 +106,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{67923c8f-c6f0-4af6-bb7c-c023bde69cbb}">
+		<property name="volume">
+			<value>-8</value>
+		</property>
 		<property name="name">
 			<value>Dooropen</value>
 		</property>

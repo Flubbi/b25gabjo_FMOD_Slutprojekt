@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c86717b5-1784-46f8-8e2e-e8e2091e1c61}">
+		<property name="note">
+			<value>Oneshot sound for cicking on the menu buttons</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 1</value>
 		</property>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{bc90ac4b-4f3a-4890-b1b5-98f05773ce3d}">
+		<property name="note">
+			<value>Oneshot event with a long sequence for when the boss dies, and this starts playing to sync up.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

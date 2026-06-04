@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b6f2f556-986d-446d-bc33-33122a2a438e}">
+		<property name="note">
+			<value>Oneshot sound event for boss taking damage in it's weakened state.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -124,7 +127,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{fb534878-7f43-4e77-a25a-f2c626343ea2}">
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -149,7 +152,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{962c5b6d-a3c9-439e-bc47-a6289d182391}">
 		<property name="volume">
-			<value>-13.5</value>
+			<value>-7</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -174,7 +177,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{8503fca4-38db-4459-9dad-f864de02c49a}">
 		<property name="volume">
-			<value>-16</value>
+			<value>-14</value>
 		</property>
 		<property name="name">
 			<value>Audio 3</value>

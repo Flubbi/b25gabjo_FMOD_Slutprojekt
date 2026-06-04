@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c602db26-f594-42cf-ad01-30e47a348776}">
 		<property name="assetPath">
-			<value>SFX/Metal stång_004.wav</value>
+			<value>SFX/Foley/Metal stång_004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{3e3ae66f-347e-4488-adf3-df482b56a7a4}">
 		<property name="assetPath">
-			<value>SFX/Gummibälte_003.wav</value>
+			<value>SFX/Foley/Gummibälte_003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

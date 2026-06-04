@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f325ea31-d6b0-4648-a768-b49b4c3c7168}">
+		<property name="note">
+			<value>Oneshot event for clicking on the start game button</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 1</value>
 		</property>

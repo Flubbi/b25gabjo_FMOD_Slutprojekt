@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d57c5acd-cd9c-4349-8d60-8d29675b072d}">
+		<property name="note">
+			<value>Oneshot event playing different steam stages, with parameters.
+1 = First steam stage
+2 = second steam stage.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

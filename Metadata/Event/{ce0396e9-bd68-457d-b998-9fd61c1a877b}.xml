@@ -137,6 +137,9 @@ Using Surface parameter Grass = 0, Rock =1, Metal = 2</value>
 		<property name="volume">
 			<value>-16.5</value>
 		</property>
+		<property name="pitch">
+			<value>-2</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{3e5f48bc-2697-4eb6-905b-f3d239477fa0}</destination>
 			<destination>{fd149d16-cb0b-4c01-b589-13ea55c70342}</destination>
@@ -193,7 +196,7 @@ Using Surface parameter Grass = 0, Rock =1, Metal = 2</value>
 	</object>
 	<object class="SingleSound" id="{fd149d16-cb0b-4c01-b589-13ea55c70342}">
 		<property name="startOffset">
-			<value>58.5</value>
+			<value>59</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{77e24cb5-cc8a-4f56-aa56-3f48faa12476}</destination>

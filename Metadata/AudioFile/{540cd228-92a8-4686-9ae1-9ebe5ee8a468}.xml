@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{540cd228-92a8-4686-9ae1-9ebe5ee8a468}">
 		<property name="assetPath">
-			<value>SFX/Flagga_009.wav</value>
+			<value>SFX/Foley/Flagga_009.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

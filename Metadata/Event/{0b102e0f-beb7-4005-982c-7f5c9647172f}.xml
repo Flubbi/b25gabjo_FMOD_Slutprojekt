@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0b102e0f-beb7-4005-982c-7f5c9647172f}">
+		<property name="note">
+			<value>Outside ambiance loop for the outdoor zones in the game</value>
+		</property>
 		<property name="color">
 			<value>Cyan</value>
 		</property>

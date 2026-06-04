@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{ffb4d530-5a7e-4642-8158-fdf6f23b0e01}">
 		<property name="assetPath">
-			<value>SFX/Spitter 1_010.wav</value>
+			<value>SFX/Enemies/Spitter 1_010.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

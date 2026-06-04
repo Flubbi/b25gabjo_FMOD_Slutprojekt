@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1666271d-70b7-4fd6-bb76-a6520ea184b5}">
+		<property name="note">
+			<value>Oneshot sound for Boss Lightning attack.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -217,6 +220,7 @@
 			<destination>{e0a74d74-514a-47cc-afa9-ecb4a92bb612}</destination>
 			<destination>{5b030a12-f5f0-4b2d-8798-53e24dab2215}</destination>
 			<destination>{e506e6ef-617f-4fbe-9984-532f6ba5be38}</destination>
+			<destination>{73c9fe6a-1af2-47b1-91a6-9bf15d5a2298}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{36c8ed4d-bb53-4f99-ab9c-3589c0764a55}" />
@@ -307,6 +311,11 @@
 		<relationship name="mixerReturn">
 			<destination>{8043e274-749e-4a42-9c19-5a9d9dd3c0b0}</destination>
 		</relationship>
+	</object>
+	<object class="DistortionEffect" id="{73c9fe6a-1af2-47b1-91a6-9bf15d5a2298}">
+		<property name="level">
+			<value>0.38499999</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{f1016d7f-520a-45eb-9520-867a9f6d1e8d}">
 		<property name="position">

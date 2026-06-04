@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{df4efc38-b74a-4310-9de4-3b55213354db}">
 		<property name="assetPath">
-			<value>SFX/Ficklampa Vev_004.wav</value>
+			<value>SFX/Foley/Ficklampa Vev_004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

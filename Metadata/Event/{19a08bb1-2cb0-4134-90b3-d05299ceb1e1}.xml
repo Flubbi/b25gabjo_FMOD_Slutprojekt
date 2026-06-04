@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{19a08bb1-2cb0-4134-90b3-d05299ceb1e1}">
+		<property name="note">
+			<value>Oneshot event for shared death for Spitter and Chomper, with slight variation in a death voice
+</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -11,7 +15,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{b0f4eafc-c432-4d85-9634-7326ff9aac81}</destination>
+			<destination>{b83da3b8-1745-4a90-bfbf-c8f6af5176f4}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{518f4ef9-5c41-47e0-aeb0-e5dddd66bfe2}</destination>
@@ -164,7 +168,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{8fab5985-0d61-467f-81c3-916f8bda7be4}">
 		<property name="volume">
-			<value>-15.5</value>
+			<value>-10</value>
 		</property>
 		<property name="name">
 			<value>Voice</value>
@@ -226,11 +230,17 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{26d42aab-791b-4f00-bdc9-021467a04b1a}">
+		<property name="startOffset">
+			<value>32.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{ee478f93-1294-4b08-9a93-fe09bc840014}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{09b5c3db-d129-4b48-a99a-742b956bdf0f}">
+		<property name="startOffset">
+			<value>39.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{70c7240b-2d2a-4df5-9f90-83ec6c874394}</destination>
 		</relationship>

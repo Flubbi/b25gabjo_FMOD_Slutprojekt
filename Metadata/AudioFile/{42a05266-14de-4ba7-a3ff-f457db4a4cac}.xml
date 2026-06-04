@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{42a05266-14de-4ba7-a3ff-f457db4a4cac}">
 		<property name="assetPath">
-			<value>SFX/Bälte_002.wav</value>
+			<value>SFX/Foley/Bälte_002.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

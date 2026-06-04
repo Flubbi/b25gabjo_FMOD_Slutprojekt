@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6e2f8a92-e290-4b6c-b185-38e37b4b9944}">
+		<property name="note">
+			<value>Oneshot jingle for the health pickups in the game</value>
+		</property>
 		<property name="color">
 			<value>Magenta Light 2</value>
 		</property>

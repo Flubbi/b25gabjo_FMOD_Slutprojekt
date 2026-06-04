@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ab317acb-338c-45a4-9d04-2db48cc95eb8}">
+		<property name="note">
+			<value>Oneshot event for Enemy Chomper attack
+</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -11,7 +15,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{b0f4eafc-c432-4d85-9634-7326ff9aac81}</destination>
+			<destination>{b83da3b8-1745-4a90-bfbf-c8f6af5176f4}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{00a8b74f-3baa-45be-b117-dd2824c3e775}</destination>
