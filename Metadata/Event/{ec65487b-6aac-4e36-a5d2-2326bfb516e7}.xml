@@ -2,7 +2,10 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ec65487b-6aac-4e36-a5d2-2326bfb516e7}">
 		<property name="note">
-			<value>Manager for taking care of the Ambiances</value>
+			<value>Manager for taking care of the Ambiances
+With 0 = outside
+and 1 = inside cave amb
+</value>
 		</property>
 		<property name="color">
 			<value>Cyan</value>

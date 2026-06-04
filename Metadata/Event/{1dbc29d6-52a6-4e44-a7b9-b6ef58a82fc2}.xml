@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1dbc29d6-52a6-4e44-a7b9-b6ef58a82fc2}">
+		<property name="note">
+			<value>looping sound for a creepy statue in the game
+</value>
+		</property>
 		<property name="color">
 			<value>Yellow</value>
 		</property>
