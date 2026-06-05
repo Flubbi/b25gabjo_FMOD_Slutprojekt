@@ -212,6 +212,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{6a7edea0-743e-4dff-84f9-4ae42bf3ed59}">
+		<property name="volume">
+			<value>-8.5</value>
+		</property>
 		<property name="name">
 			<value>Chargeup</value>
 		</property>
@@ -291,6 +294,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f2b4dc08-eb46-44c3-933c-221e059ebb9f}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<property name="name">
 			<value>Explosion</value>
 		</property>
@@ -306,10 +312,13 @@
 	</object>
 	<object class="SingleSound" id="{9b533ec4-333a-4ce6-a517-804a163aa094}">
 		<property name="start">
-			<value>5.5</value>
+			<value>5.6000000000000005</value>
 		</property>
 		<property name="length">
 			<value>0.8012083333333333</value>
+		</property>
+		<property name="pitch">
+			<value>-2</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{730665f6-1452-405d-aede-0dce24edc027}</destination>
@@ -319,6 +328,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e269a7dd-a62b-4d11-8431-9b73c26c29f4}">
+		<property name="volume">
+			<value>-8</value>
+		</property>
 		<property name="name">
 			<value>Glass</value>
 		</property>
@@ -493,6 +505,7 @@
 	<object class="MixerBusEffectChain" id="{5bc7c9d2-3dc2-4168-8b42-cbe82c36118b}">
 		<relationship name="effects">
 			<destination>{b2cb45d4-a71a-4fd3-a3c9-0533d101e0dd}</destination>
+			<destination>{1bb3d8b5-29cb-42b7-8c88-a3e99c3b2e5e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{98405dc6-d89e-4c93-b734-cefdc49d75d1}" />
@@ -744,7 +757,7 @@
 	</object>
 	<object class="AutomationPoint" id="{bcd555b0-e68d-415d-8f31-78d56cdb2c04}">
 		<property name="position">
-			<value>6.2000000000000002</value>
+			<value>6.3000000000000007</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -755,13 +768,21 @@
 	</object>
 	<object class="AutomationPoint" id="{662f0d13-a209-4099-b071-545cb2f767d7}">
 		<property name="position">
-			<value>6.3012083333333333</value>
+			<value>6.4012083333333338</value>
 		</property>
 		<property name="value">
 			<value>0</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{b2cb45d4-a71a-4fd3-a3c9-0533d101e0dd}" />
+	<object class="DelayEffect" id="{1bb3d8b5-29cb-42b7-8c88-a3e99c3b2e5e}">
+		<property name="delay">
+			<value>96</value>
+		</property>
+		<property name="feedback">
+			<value>33.5</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{eb567215-9eac-4a71-a08c-b138cfb8c2ce}">
 		<property name="position">
 			<value>0.17241379310344829</value>

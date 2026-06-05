@@ -3,7 +3,8 @@
 	<object class="Event" id="{10b32647-0c2a-47f7-96f0-144e1b47803b}">
 		<property name="note">
 			<value>Oneshot Player sound with walking onto a surface
-Using Surface parameter Grass = 0, Rock =1, Metal = 2</value>
+Using Surface parameter Grass = 0, Rock =1, Metal = 2
+With some metal jingling for metallic clothing</value>
 		</property>
 		<property name="color">
 			<value>Green</value>
@@ -81,7 +82,7 @@ Using Surface parameter Grass = 0, Rock =1, Metal = 2</value>
 	</object>
 	<object class="GroupTrack" id="{3aaed9b1-ea67-4108-b3ab-5ba72e89d5f7}">
 		<relationship name="modules">
-			<destination>{147b25bf-b4f6-4587-bdda-0e01f3340bd8}</destination>
+			<destination>{40ed3286-97d4-493a-9022-023d3ace84a2}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{70cd944a-7867-4503-9c07-7b2683332cc8}</destination>
@@ -93,7 +94,7 @@ Using Surface parameter Grass = 0, Rock =1, Metal = 2</value>
 			<destination>{92324087-3021-4dea-86f3-1e0a9c25586b}</destination>
 			<destination>{a0db35d8-a158-4fb0-aa0e-94e417dfbdef}</destination>
 			<destination>{721c1f0a-d520-4c4d-aa2c-8c16286e5045}</destination>
-			<destination>{147b25bf-b4f6-4587-bdda-0e01f3340bd8}</destination>
+			<destination>{40ed3286-97d4-493a-9022-023d3ace84a2}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{056210a7-5db3-4c23-8c8a-db5775d52bb2}</destination>
@@ -131,9 +132,6 @@ Using Surface parameter Grass = 0, Rock =1, Metal = 2</value>
 	<object class="MultiSound" id="{a0db35d8-a158-4fb0-aa0e-94e417dfbdef}">
 		<property name="start">
 			<value>1</value>
-		</property>
-		<property name="startOffset">
-			<value>5.5</value>
 		</property>
 		<property name="volume">
 			<value>-9.5</value>
@@ -191,35 +189,18 @@ Using Surface parameter Grass = 0, Rock =1, Metal = 2</value>
 			<destination>{5080c51b-ab2f-4faa-ad14-e8a1993622ba}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{147b25bf-b4f6-4587-bdda-0e01f3340bd8}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
-		<property name="triggerProbability">
-			<value>34</value>
-		</property>
+	<object class="MultiSound" id="{40ed3286-97d4-493a-9022-023d3ace84a2}">
 		<property name="length">
 			<value>3</value>
 		</property>
-		<property name="startOffset">
-			<value>16.5</value>
-		</property>
-		<property name="pitch">
-			<value>5.5</value>
-		</property>
 		<relationship name="sounds">
-			<destination>{42beec0f-ee70-40eb-8b70-f47934065e33}</destination>
-			<destination>{c2bfa965-5947-4249-80d0-aed2c50d232e}</destination>
-			<destination>{daf95800-d579-404d-a18c-150601ae4c20}</destination>
-			<destination>{14ebdbfd-3945-4b27-821b-159e418ba634}</destination>
-			<destination>{1bc454cd-d721-47a1-ade9-a551d07b5cb1}</destination>
-			<destination>{5335d0c2-eb1c-45ad-8db4-3873c70b0a82}</destination>
-			<destination>{b98e0ce5-68c9-48a3-ac02-49e8087f0571}</destination>
+			<destination>{a772d1d0-7785-4b1e-8ca1-c0eb9d412e20}</destination>
+			<destination>{873b8336-fc47-4cfb-be1c-51dff7e59e14}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{70cd944a-7867-4503-9c07-7b2683332cc8}">
 		<property name="volume">
-			<value>-21</value>
+			<value>-7.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -242,6 +223,9 @@ Using Surface parameter Grass = 0, Rock =1, Metal = 2</value>
 	<object class="MixerBusPanner" id="{add94af7-f081-4233-bcfc-57c7ac3cd898}" />
 	<object class="MixerBusFader" id="{ef0f6cc5-4796-4b77-a1a4-ed2d377a0f03}" />
 	<object class="SingleSound" id="{8dbb8394-09ea-4b44-8664-09ae2f6e43cb}">
+		<property name="startOffset">
+			<value>4.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{1e6ff517-214e-4c61-bd9e-0e4548a1991b}</destination>
 		</relationship>
@@ -262,56 +246,89 @@ Using Surface parameter Grass = 0, Rock =1, Metal = 2</value>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{173a0ef5-629c-4d51-aa04-8747b897ee75}">
+		<property name="startOffset">
+			<value>4</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{ebc8ae5b-ee2c-40da-bc32-0cf69aa2693d}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{00c0cff8-738f-49db-87d1-397985bd6669}">
+		<property name="startOffset">
+			<value>7.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{a9fe2ace-716f-43a0-95d1-4977281d1397}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{81d6088e-a410-4427-bde4-3de652076875}">
+		<property name="startOffset">
+			<value>25</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{abacf37a-c913-4c4f-97e6-f3b9ded76e29}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{b6bc78c3-7d66-4b8e-a266-0334ad8c87da}">
+		<property name="startOffset">
+			<value>11</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{1a95fe0a-37ae-4f99-a530-33a75dd692dd}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{e6bb2e31-48b9-4ee5-b4d1-48cbb4d3dc6a}">
+		<property name="startOffset">
+			<value>28</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{0f925bd0-e53a-4a5e-882b-48182e08721c}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{6c418081-f78d-4dd4-b74a-290349ca6288}">
+		<property name="startOffset">
+			<value>17</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{30ebee57-af7d-4342-8d52-1ad8440a3783}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{25b17c6e-1521-4621-a9eb-9bdecbe520a0}">
+		<property name="startOffset">
+			<value>19</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{0071f6cb-d147-47ee-ab66-9a88ec1ed474}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{3313d4eb-4e0f-40a2-81c8-2da1de77d75e}">
+		<property name="startOffset">
+			<value>27</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{5bd0b9da-9b38-4159-907f-497c90c2c6ab}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{b1fb8d2e-1ff6-4e0f-8958-aa1197c59e1b}">
+		<property name="startOffset">
+			<value>43.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{a25816db-0da6-4530-85e3-0f0e33f60dd4}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{3269f94b-46c8-4d3d-b0d9-8039e03843fd}">
+		<property name="startOffset">
+			<value>1</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{6d0d5092-86a3-49cf-8dd7-12e91e6e4dee}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{2144a601-6383-4e3c-9b46-1ddfec24c931}">
+		<property name="startOffset">
+			<value>13.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{fdfff5be-cb89-416f-ae47-99d7ded3d7d8}</destination>
 		</relationship>
@@ -373,39 +390,14 @@ Using Surface parameter Grass = 0, Rock =1, Metal = 2</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cb4f8f23-c285-4b9c-a0f4-0864c362081b}" />
-	<object class="SingleSound" id="{42beec0f-ee70-40eb-8b70-f47934065e33}">
+	<object class="SingleSound" id="{a772d1d0-7785-4b1e-8ca1-c0eb9d412e20}">
 		<relationship name="audioFile">
-			<destination>{e94fd26f-2f02-47ff-8c7f-14efcab68fe7}</destination>
+			<destination>{416c476c-9461-4167-91ec-de7af6c38f51}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{c2bfa965-5947-4249-80d0-aed2c50d232e}">
+	<object class="SingleSound" id="{873b8336-fc47-4cfb-be1c-51dff7e59e14}">
 		<relationship name="audioFile">
-			<destination>{26905ca0-7824-49f7-8afb-b8e719e1d841}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{daf95800-d579-404d-a18c-150601ae4c20}">
-		<relationship name="audioFile">
-			<destination>{1af3b6cd-323a-4456-adfd-83d1296d7b51}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{14ebdbfd-3945-4b27-821b-159e418ba634}">
-		<relationship name="audioFile">
-			<destination>{c602db26-f594-42cf-ad01-30e47a348776}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{1bc454cd-d721-47a1-ade9-a551d07b5cb1}">
-		<relationship name="audioFile">
-			<destination>{bfbda4a8-dd06-4b31-85eb-e64a42cff18c}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{5335d0c2-eb1c-45ad-8db4-3873c70b0a82}">
-		<relationship name="audioFile">
-			<destination>{0843e8dc-b72d-4aaf-bd81-004c24eb954b}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{b98e0ce5-68c9-48a3-ac02-49e8087f0571}">
-		<relationship name="audioFile">
-			<destination>{3ad48bfc-734b-4d5e-90b0-583f3c01b4e3}</destination>
+			<destination>{e48fdb73-94c2-41a2-8f03-e71b0fbadd1f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{a2854ae4-d28e-4eda-8510-5838a6a5a0aa}">
@@ -419,7 +411,10 @@ Using Surface parameter Grass = 0, Rock =1, Metal = 2</value>
 	<object class="MixerBusFader" id="{5ec53a7a-f995-43e6-b428-f7a3d0c44f78}" />
 	<object class="ThreeEQEffect" id="{c9eae2a1-bec5-49a6-80a3-b5aff9da485a}">
 		<property name="lowGain">
-			<value>-28</value>
+			<value>-80</value>
+		</property>
+		<property name="highGain">
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{080870ca-445f-42ab-a171-48ca82a4391d}" />
@@ -428,7 +423,7 @@ Using Surface parameter Grass = 0, Rock =1, Metal = 2</value>
 			<value>-14.5</value>
 		</property>
 		<property name="highGain">
-			<value>-10</value>
+			<value>-32</value>
 		</property>
 	</object>
 </objects>

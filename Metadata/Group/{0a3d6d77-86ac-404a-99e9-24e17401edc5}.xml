@@ -19,18 +19,24 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{af1e945d-6c73-41ab-98e3-ce32cf9e84e0}">
 		<relationship name="effects">
+			<destination>{3ca97aad-cab3-4bbc-8a22-3bdd0a8a4850}</destination>
 			<destination>{741d5ff8-ee39-448e-9611-4616bf05fabb}</destination>
-			<destination>{9f73a872-b80d-4f43-a5b0-b6f5eefb1ca9}</destination>
+			<destination>{c66184fd-3060-4342-a02a-b7ed0c32cf12}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2ddf394c-eefe-4b75-9f22-e0403a80ab8b}" />
-	<object class="MixerBusFader" id="{741d5ff8-ee39-448e-9611-4616bf05fabb}" />
-	<object class="MixerSend" id="{9f73a872-b80d-4f43-a5b0-b6f5eefb1ca9}">
+	<object class="MixerSend" id="{3ca97aad-cab3-4bbc-8a22-3bdd0a8a4850}">
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="mixerReturn">
-			<destination>{783043e5-d3ea-4a8c-8dcf-2516971b4152}</destination>
+			<destination>{322e5bf0-451b-45d4-b134-34232ad1665e}</destination>
 		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{741d5ff8-ee39-448e-9611-4616bf05fabb}" />
+	<object class="ThreeEQEffect" id="{c66184fd-3060-4342-a02a-b7ed0c32cf12}">
+		<property name="lowGain">
+			<value>-55</value>
+		</property>
 	</object>
 </objects>

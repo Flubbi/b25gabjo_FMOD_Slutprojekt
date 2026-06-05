@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{db186f8b-ef31-498d-8a8a-42067264426d}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
+		<property name="name">
+			<value>Acid_Splash</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{31c27f0e-49ae-4c02-a408-73fa73e0c57e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{f9c0f73b-01ff-42fc-b6d4-5d6fbc69d544}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{7b638002-170e-4bd2-b481-976ed5b960e2}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{31c27f0e-49ae-4c02-a408-73fa73e0c57e}">
+		<relationship name="effects">
+			<destination>{bfed8055-67ca-4d97-bb9b-edb74995fae9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{f9c0f73b-01ff-42fc-b6d4-5d6fbc69d544}" />
+	<object class="MixerBusFader" id="{bfed8055-67ca-4d97-bb9b-edb74995fae9}" />
+</objects>

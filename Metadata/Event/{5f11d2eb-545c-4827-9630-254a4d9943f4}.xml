@@ -126,7 +126,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{b903ad57-ae18-415c-af30-b1d45770cb23}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-18</value>
 		</property>
 		<property name="overridingInputFormat">
 			<value>0</value>
@@ -157,7 +157,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ead4c2c0-5581-46aa-9922-fb25a6139f83}">
 		<property name="volume">
-			<value>-14</value>
+			<value>-18.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>

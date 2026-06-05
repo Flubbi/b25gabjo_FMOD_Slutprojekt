@@ -186,6 +186,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{075fc838-aa1c-4885-822e-ed2b5c594706}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<property name="name">
 			<value>Door</value>
 		</property>
@@ -234,6 +237,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{6418008c-b58b-48d9-b1ae-3c4db1861bd3}">
+		<property name="volume">
+			<value>-8.5</value>
+		</property>
 		<property name="name">
 			<value>Hands on Door</value>
 		</property>
@@ -288,6 +294,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d3b8f932-d4c6-443c-9725-4e1bc32ac799}">
+		<property name="volume">
+			<value>-4.5</value>
+		</property>
 		<property name="name">
 			<value>EyeLight</value>
 		</property>
@@ -323,7 +332,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{86f35f63-1475-4310-8cc9-9c7c86c723f1}">
 		<property name="volume">
-			<value>-15.5</value>
+			<value>-19.5</value>
 		</property>
 		<property name="name">
 			<value>Steam</value>
@@ -374,7 +383,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{a5a55151-38f8-4a6d-8ee5-c2cc8564c27e}">
 		<property name="volume">
-			<value>-10.5</value>
+			<value>-11</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>

@@ -60,7 +60,7 @@
 			<destination>{b15c34d6-7f2b-4e66-961b-6a052316ad6c}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{7b638002-170e-4bd2-b481-976ed5b960e2}</destination>
+			<destination>{db186f8b-ef31-498d-8a8a-42067264426d}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ba3d1d26-a6e8-4713-b324-32fbe9af5337}" />
@@ -183,6 +183,7 @@
 			<destination>{a5b49251-1e49-4905-b035-98e632fb5158}</destination>
 			<destination>{ed557a1b-6b56-4b1f-9a5f-79bf0b80bd65}</destination>
 			<destination>{c0e91e6e-1d7b-4229-bb0f-3708eb9d152f}</destination>
+			<destination>{19c8c159-807c-41ae-bab8-0f3bb99e975c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{375a4b3b-60e6-4327-9196-7408812ccf72}" />
@@ -227,6 +228,11 @@
 		</property>
 	</object>
 	<object class="PitchShifterEffect" id="{c0e91e6e-1d7b-4229-bb0f-3708eb9d152f}" />
+	<object class="DistortionEffect" id="{19c8c159-807c-41ae-bab8-0f3bb99e975c}">
+		<property name="level">
+			<value>0.479999989</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{6603198a-d3e4-4d75-8cb0-df0e57202e3d}">
 		<property name="position">
 			<value>0</value>
