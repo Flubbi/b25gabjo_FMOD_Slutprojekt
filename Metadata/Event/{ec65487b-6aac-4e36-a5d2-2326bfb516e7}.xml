@@ -83,6 +83,9 @@ and 1 = inside cave amb
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{aaad158a-6e2a-4cfd-afd0-dd3204f2bdf0}">
+		<relationship name="modules">
+			<destination>{22022876-74ae-4fc6-8d0e-93839a2eb136}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{3f55aa1c-41da-4d80-8196-053e1dd198e7}</destination>
 		</relationship>
@@ -91,6 +94,7 @@ and 1 = inside cave amb
 		<relationship name="modules">
 			<destination>{4ef61b09-3a39-483e-8858-528536e7a367}</destination>
 			<destination>{dd4c5987-dec8-4b15-9aae-fdadfb7c0f3d}</destination>
+			<destination>{22022876-74ae-4fc6-8d0e-93839a2eb136}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{e2356ae6-e813-4dde-8538-584506b61cdf}</destination>
@@ -158,6 +162,17 @@ and 1 = inside cave amb
 		</relationship>
 		<relationship name="output">
 			<destination>{5b5ad723-2353-4d70-8345-fa2af66baac3}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotModule" id="{22022876-74ae-4fc6-8d0e-93839a2eb136}">
+		<property name="start">
+			<value>16</value>
+		</property>
+		<property name="length">
+			<value>8</value>
+		</property>
+		<relationship name="event">
+			<destination>{d86ed0c5-cb9d-409e-a793-f0a5077f1d6c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3f55aa1c-41da-4d80-8196-053e1dd198e7}">
